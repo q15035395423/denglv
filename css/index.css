@@ -1,0 +1,78 @@
+/*
+* @Author: 29016
+* @Date:   2017-12-01 14:55:08
+* @Last Modified by:   29016
+* @Last Modified time: 2017-12-01 17:40:41
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: : "微软雅黑","宋体",sans-serif;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	-webkit-tap-highlight-color: transparent;
+}
+input{
+	display: block;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body{
+	background-color: #ccc;
+	font-size: 12px;
+	color: #000;
+}
+.box{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, .7);
+	position: relative;
+}
+main{
+	width: 500px;
+	height: 300px;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin:auto;
+	border-radius: 5%;
+	padding: 50px;
+}
+label{
+	display: block;
+}
+.username{
+	width: 300px;
+	height: 30px;
+}
+section{
+	margin-bottom: 20px;
+
+}
+input[type="submit"]{
+	width: 120px;
+	height: 40px;
+	background: -webkit-linear-gradient(left,#428bca,#50a7f2);
+	border: none;
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+}
+p{
+	font-size: 16px;
+	text-align: center;
+	margin: 20px 0;
+}
+span{
+	color: red;
+	font-weight: 700; 
+}
